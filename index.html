@@ -1,117 +1,143 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Craig Gratton</title>
-    <link rel="stylesheet" href="Style/master.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style/index.css" />
+    <link rel="stylesheet" href="all.min.css" />
   </head>
   <body>
-    <h1>Craig Gratton's Resume</h1>
+    <nav>
+      <h2 id="logo">Craig Gratton</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">Home</a></li>
+        <li class="navigation-item"><a href="resume.html">Resume</a></li>
 
-    <!-- OBJECTIVE STATEMENT - This is a comment -->
-    <section>
-      <h3 class="sectionHeader">Professional Summary</h3>
-      <p>
-        I served in the United States Navy for 9 years as an Aviation Ordnanceman with 2 Depoyments on the USS John C. Stennis for Operations Southern Watch and Enduring Freedom.  After my time was up on the USS John C. Stennis I continued on with my Naval Career to the Super Hornet Squadron VFA-122 based out of NAS Lemoore in the Central Valley of California.  After my Honorable Discharge from the Navy I decided to move back to the Buffalo Area and eventually enrolled in Erie Community College where I first decided to major in Computer Science and then I decided to switch to IT with a concentration in Oracle PL/SQL. After graduating from ECC I imediately decided to enroll in Alfred State's Bachelor of Technology in Network Administation. 
+        <!--
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+            -->
 
-
-      </p>
-    </section>
-    <hr>
-    <!-- Experience -->
-    <section>
-      <h3 class="sectionHeader">Professional Experience</h3>
-      <p>
-        Quamquam fore cupidatat ad amet sempiternum commodo elit litteris.
-        Tamen ab litteris, do export mandaremus probant.
-        Quid ullamco familiaritatem te offendit duis quo quibusdam comprehenderit.
-      </p>
-      <ul>
-        <li class="sectionSubHeader">Datasure24 – Buffalo, NY </a></li>
-          <ul>
-            <li >Security Analyst</li>
-            <li>June 2018 – March 2020</li>
-            <li>Responsibilities</li>
-            <ul>
-              <li>Monitored and reviewed Security Information and Event Management (SIEM) Alarms. Analyzed alarms and recorded possible security incidents and events to our internal ticketing system as appropriate. Elevate alarms to a Tier 2 Security Analyst when pertinent.</li>
-              <li>Assisted with the development and improvement of internal SOP’s to improve incident response times, analysis of incidents and alarms, and overall security analyst functions.</li>
-              <li>Pre-Assessment deliverables related to NIST frameworks, HIPPA, DFARS, PCI for clients undergoing audits or onboarding new clients</li>
-              <li>Incident Response including Malware, Ransomware, DDoS and Malicious Insider and researched unknown exploits or intrusion attempts</li>
-            </ul>
-          </ul><br>
-        <li class="sectionSubHeader">Tek Systems – Buffalo, NY</li>
-          <ul>
-            <li>Help Desk Analyst</li>
-            <li>October 2017 – November 2017</li>
-            <li>Responsibilities</li>
-            <ul>
-              <li>Worked an 8-week contract for Kaleida Health supporting the opening of Oshei Children’s Hospital</li>
-              <li>Provided Level 1 Technical Support and troubleshooting, and escalated tickets as appropriate</li>
-              <li>Tested alarm systems, phones and clinical hardware and computer systems prior to hospital opening to make sure they were in proper working order</li>
-            </ul>
-          </ul><br>
-        <li class="sectionSubHeader">Kelly Services – Buffalo, NY</li>
-          <ul>
-            <li >Help Desk Analyst</li>
-            <li>February 2017 – June 2017</li>
-            <li>Responsibilities</li>
-            <ul>
-              <li>Worked as a sub-contractor of IBM on the NYS ITS Service Desk providing Level 1 Technical Support</li>
-              <li>Troubleshoot, diagnose and resolve or escalate Level 1 incidents as necessary</li>
-              <li>Provided customer support to clients via telephone, chat and email</li>
-            </ul>
-          </ul>
+        <li class="navigation-item"><a href="contact.html">Contact</a></li>
       </ul>
-    </section>
-    <hr>
-    <!-- Education -->
-    <section>
-      <h3 class="sectionHeader">Education</h3>
-        <ul>
-          <li>Western Governors University – Online</li>
-            <ul>
-              <li>B.S. in Cybersecurity and Information Assurance (Currently Attending)</li>
-              <li>Program includes over 10 industry certifications including CompTIA Security+, CySA+</li>
-            </ul><br>
-          <li>SUNY College Of Technology</li>
-            <ul>
-              <li>Earned 60 Semester hours in Network Administration</li>
-              <li>Activities: Alfred State Information Security Team (Competitive Cyber Security Club)</li>
-            </ul><br>
-          <li>Erie Community College</li>
-            <ul>
-              <li>A.A.S. in Information Technology</li>
-              <li>Activities: Phi Theta Kappa Honors Society, Vice-President Veterans Club</li>
-            </ul>
-        </ul>
-    </section>
-    <hr>
-    <!-- Skills -->
-    <section>
-      <h3 class="sectionHeader">Skills</h3>
-        <ul id="skillsList">
-          <li>            Incident Response          </li>
-          <li>            Wireshark          </li>
-          <li>            NMAP          </li>
-          <li>            Vulnerability Scanning          </li>
-          <li>            AlienVault SIEM          </li>
-          <li>            Windows & Linux          </li>
-          <li>            VMware Workstation Pro          </li>
-          <li>            Security Monitoring          </li>
-          <li>            Analytical Ability          </li>
-          <li>            Techical Aptitude          </li>
-          <li>            Being On Time         </li>
-          <li>            HTML & CSS          </li>
-        </ul>
-    </section>
-    <hr>
-    <!-- Contact -->
-    <section>
-       <br>
-      <a href="mailto:craiggratton@gmail.com?subject=Resume">craiggratton@gmail.com </a><br>
-      
+    </nav>
 
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hello! I'm Craig, and I'm a <strong>Security Analyst</strong> from Western NY.
 
-    </section>
+            </p>
+            <p>
+              After graduating from high school, I enlisted in the United States Navy as an
+              <a href="https://en.wikipedia.org/wiki/Aviation_ordnanceman">Aviation Ordnanceman</a>.  I was
+              stationed in California for my enlistment on board the <a href="https://en.wikipedia.org/wiki/USS_John_C._Stennis">USS John C. Stennis CVN-74</a>  at
+              <a href="https://en.wikipedia.org/wiki/Naval_Air_Station_North_Island">NAS North Island</a>  in San Diego
+               and <a href="https://en.wikipedia.org/wiki/Boeing_F/A-18E/F_Super_Hornet">Super Hornet</a>  Strike Fighter Squadron <a href="https://en.wikipedia.org/wiki/VFA-122"> VFA-122 </a>at <a href="https://en.wikipedia.org/wiki/Naval_Air_Station_Lemoore">NAS Lemoore</a>  in the Central Valley of California.
+            </p>
+            <p>
+              After my Honorable Discharge from the Navy I decided to move back to the Buffalo Area and eventually enrolled in Erie Community College where I first decided to major in Computer Science and then I decided to switch to IT with a concentration in Oracle PL/SQL. After graduating from ECC I imediately decided to enroll in Alfred State's Bachelor of Technology in Network Administation. 
+            </p>
+            <p>
+             <!--- Fun fact! I've been programing for
+              <span id="time-container">0</span> seconds! -->
+            </p>
+          </div>
+          <img
+            src="Style/avatar.jpg"
+            alt="Cyber Sec Avatar"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <!--
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>The first computer program</h3>
+          </summary>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+            alt="Lovelace's diagram from note G, the first published computer
+          algorithm"
+            class="project-image"
+          />
+          <p class="project-description">
+            The world's first computer program for computing Bernoulli numbers.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>The Analytical Engine</h3>
+          </summary>
+          <img
+            src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555925585/shape/mentalfloss/analyticalmachine_babbage_london.jpg?itok=5vRTwQjb"
+            alt="An original model of part of the Analytical Engine"
+            class="project-image"
+          />
+          <p class="project-description">
+            I helped Charles Babbage on topics ranging from math to computation
+            that helped the development of the Analytical Engine.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>The Ada programming language</h3>
+          </summary>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ada_Mascot_with_slogan.svg/220px-Ada_Mascot_with_slogan.svg.png"
+            alt='Ada mascot, a black and cobalt blue hummingbird, flying above the
+          slogan "Time-tested, safe and secure"'
+            class="project-image"
+          />
+          <p class="project-description">
+            My work inspired the United States Department of Defense to name
+            their new programming language after me.
+          </p>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+            -->
+    
   </body>
+  <script>
+    const timeContainer = document.getElementById("time-container");
+    const BIRTH_DAY = "12-10-1815";
+    const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
+    const intlNumberFormatter = new Intl.NumberFormat("en-US");
+
+    setInterval(() => {
+      const now = new Date();
+      const difference = Math.floor(
+        (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
+      );
+
+      timeContainer.innerText = intlNumberFormatter.format(difference);
+    }, 1000);
+  </script>
 </html>
