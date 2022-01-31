@@ -127,6 +127,21 @@ a {
   margin-top: var(--spacing-1);
 }
 
+#skillsList{
+  columns:  3;
+}
+
+.sectionHeader {
+  
+  font-style: italic bold;
+  font-variant: small-caps;
+}
+
+.sectionSubHeader {
+  
+  font-variant: small-caps;
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;
