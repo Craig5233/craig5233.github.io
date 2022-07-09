@@ -28,6 +28,10 @@
     columns:  3;
   }
   
+  #certList{
+    columns:  3;
+  }
+  
   .sectionHeader {
     color: var(--color3);
     font-style: italic;
