@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400, 400i, 500, 500i, 700, 700i, 900, 900i" rel="stylesheet">
+        
+        <link rel="stylesheet" href="Style/-article.css">
+        <link rel="stylesheet" href="Style/article-image.css">
+        <link rel="stylesheet" href="-Style/reset.css">
+
+        <style>
+            h2, p { margin-bottom: 2.4rem; }
+
+            h1                  { font: 700 2.0rem/1.2 "Open Sans";}
+            h2                  { font: 400 1.5rem/1.2 "Open Sans";}
+            time                { font: 700 1.0rem/1.2 "Open Sans";}
+            h3                  { font: 700 1.0rem/1.2 "Open Sans";}
+            p                   { font: 400 1.0rem/1.5 "Open Sans";}
+            figcaption p        { font: 400 1.0rem/1.5 "Open Sans";}
+
+            a { box-shadow: inset 0 -0.25em black; }
+
+            @media (max-width: 8.5in ){ :root { font-size: 18px; }}
+            @media (max-width: 5.0in ){ :root { font-size: 16px; }}
+
+            
+            .footer img{
+                padding: 0.75rem;
+                width: 1.50rem;
+                height: 1.50rem;
+            }
+
+            /* Create three unequal columns that floats next to each other */
+            .column {
+            float: left;
+            padding: 10px;
+            }
+
+            /* Left and right column */
+            .column.side {
+            width: 25%;
+            }
+
+            /* Middle column */
+            .column.middle {
+            width: 50%;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+            .column.side, .column.middle {
+                width: 100%;
+            }}
+            /* Style the footer */
+            .footer, .push {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            }
+
+        </style>
+       
+     
+    </head>
+    <body>
+        <div class="row">
+            <div class="column side">
+              <h2>Left Side</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+            </div>
+        <div class="column middle">
+            <article id="article-1">
+                <h1><a href="#article-1">The World Wide Web, the Wild West!</a></h1>
+                <h2>And the DarkNet</h2>
+
+                <time datetime="10-15-2022">OCT. 15, 2022</time>
+
+                <h3>The First Network Hack</h3>
+
+                <p>
+                    <em>A generation ago</em>, while the internet was in it's infancey, a little know hacker named John Draper who went by the pseudonym
+                    <em>Captain Crunch</em> gained access to the AT&T phone network by using a toy whistle from Cap'n Crunch cereal, which enabled him to make long 
+                    distance phone calls, This was known as phone "Phreaking".
+
+                </p>
+
+                <figure class="size-1">
+                    <img src="Style/matrix1.jpg" alt="The Matrix">
+                </figure>
+                <figcaption><p>The <em>Matrix</em></p></figcaption>
+                
+                <h3>The First Internet "Hack"</h3>
+
+                <p>
+                    I personally wouldn't call it a hack, however, it was a "Denial of Service" attack that was caused by a worm produced by Robert Morris in 1989.
+                </p>
+
+                <div class="footer">
+                <a href="https://www.linkedin.com/in/craig-gratton/"><img src="Style/linkedin.png" alt=""></a> 
+                <a href="https://twitter.com/CraigGratton1"><img src="Style/twitter.png" alt=""></a>
+                </div>
+            </article>
+        </div>
+            <div class="column side">
+                <h2>Right Side</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+             </div>
+        </div>
+
+    </body>
+</html>
